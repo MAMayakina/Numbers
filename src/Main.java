@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         //ДЗ про числа
-        System.out.println("ДЗ про числа");
+        System.out.println("***ДЗ про числа");
 
         fillSetRandomNumber();
         System.out.println(getSetNumbers());
@@ -17,13 +17,13 @@ public class Main {
         System.out.println(getSetNumbers());
 
         //ДЗ про таблицу умножения
-        System.out.println("ДЗ про таблицу умножения");
+        System.out.println("***ДЗ про таблицу умножения");
 
         generateTasks();
         System.out.println(getSetTasks());
 
         //ДЗ про паспорт
-        System.out.println("ДЗ про паспорт");
+        System.out.println("***ДЗ про паспорт");
 
         Passport.addNewPassport(new Passport(55516, "Петров", "Иван","Андреевич", "16.02.1970"));
         Passport.addNewPassport(new Passport(356, "Сидорова", "Ольга","Леонидовна", "25.04.1983"));
