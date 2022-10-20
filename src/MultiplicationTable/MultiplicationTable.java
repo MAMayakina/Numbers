@@ -20,15 +20,13 @@ public class MultiplicationTable {
     }
 
     public static boolean checkTask(String pairNumber) {
-        boolean check = false; // false - задание не повторяется
         String invertedPairNumber = pairNumber.charAt(2) + "*" + pairNumber.charAt(0);
         for (String task : setTasks) {
             if (pairNumber.equals(task) || invertedPairNumber.equals(task)) {
-                check = true;
-                break;
+                return true;
             }
         }
-        return check;
+        return false;
     }
 
     public static void generateTasks() {

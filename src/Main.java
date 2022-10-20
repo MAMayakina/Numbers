@@ -1,9 +1,12 @@
 import Passport.Passport;
 
+import static MultiplicationTable.MultiplicationTable.*;
+import static Numbers.Numbers.*;
+
 public class Main {
 
     public static void main(String[] args) {
-/*
+
         //ДЗ про числа
         System.out.println("ДЗ про числа");
 
@@ -18,7 +21,7 @@ public class Main {
 
         generateTasks();
         System.out.println(getSetTasks());
-*/
+
         //ДЗ про паспорт
         System.out.println("ДЗ про паспорт");
 
